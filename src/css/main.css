@@ -1,0 +1,166 @@
+.searched-misc {
+  background-color: yellow;
+  border-radius: 20px;
+  width: 100%;
+  padding: 30px;
+}
+
+.album_card {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.album_card--clickable {
+  cursor: "pointer";
+}
+
+.album_card--unclickable {
+  cursor: "click";
+}
+
+.album_card__label {
+  color: #444343;
+  text-align: left;
+  margin: 15px;
+}
+
+.album_card__label--song {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.album_card__label--album {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.album_card__label--track {
+  font-size: 11px;
+  font-weight: 100;
+}
+
+.album_card__img {
+  width: 100%;
+  height: 200px;
+}
+
+.music_card {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.music_card--clickable {
+  cursor: "pointer";
+}
+
+.music_card--unclickable {
+  cursor: "click";
+}
+
+.music_card__label {
+  color: #444343;
+  text-align: left;
+  margin: 15px;
+}
+
+.music_card__label--song {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.music_card__label--album {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.music_card__label--track {
+  font-size: 11px;
+  font-weight: 100;
+}
+
+.music_card__img {
+  width: 100%;
+  height: 200px;
+}
+
+.header_link a {
+  color: white;
+}
+
+.album-div {
+  background-color: #90ccf4;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.main {
+  display: block;
+  padding: 15px;
+}
+
+.main__content {
+  margin-top: 20px;
+  background-color: rgba(255, 253, 239, 0);
+}
+
+.main__search {
+  padding: 40px;
+}
+
+.main__top-div {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.artist__img {
+  width: 100%;
+  height: 400px;
+}
+
+.artist__songs {
+  list-style: none;
+  padding: 0;
+}
+
+.artist__song {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: block;
+  font-size: 13px;
+  color: #3a3a3a;
+  text-align: left;
+}
+
+.artist__album {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: block;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-weight: 500;
+  text-align: left;
+}
+
+.artist__item {
+  height: 55px;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  background-color: #ffe400;
+}
+
+.artist__header {
+  font-size: 30px;
+  font-weight: 900;
+}
+/*# sourceMappingURL=main.css.map */
