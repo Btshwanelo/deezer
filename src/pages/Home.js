@@ -26,7 +26,7 @@ export default function Home() {
     setLoading(true);
     setError(null);
 
-    const url = `https://api.deezer.com/search?q=track:${searchValue}`;
+    const url = `/search?q=track:${searchValue}`;
 
     const fetchData = async () => {
       try {
