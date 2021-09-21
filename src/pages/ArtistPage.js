@@ -13,8 +13,8 @@ function ArtistPage() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const url = `/artist/${id}`;
-    const top_url = `/artist/${id}/top?limit=4`;
+    const url = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${id}`;
+    const top_url = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${id}/top?limit=4`;
 
     const fetchData = async () => {
       try {
