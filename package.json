@@ -1,7 +1,7 @@
 {
   "name": "deezer-app",
   "version": "0.1.0",
-  "homepage": "/Btshwanelo.github.io/deezer",
+  "homepage": "https://github.com/Btshwanelo.github.io/deezer",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",
